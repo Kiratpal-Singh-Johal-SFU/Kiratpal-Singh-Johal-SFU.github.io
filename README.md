@@ -1,1 +1,1 @@
-I chose the MIT License because it allows open use of the code and is simple for educational and personal projects.
+I chose the MIT License because it allows open use of the code and is also simple for educational and personal projects.
