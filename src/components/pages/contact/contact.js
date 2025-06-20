@@ -22,8 +22,8 @@ function Contact() {
                     <a href="https://linkedin.com/in/kiratpal-singh-johal" target="_blank" rel="noreferrer">LinkedIn</a>
                     <a href={process.env.PUBLIC_URL + '/Resumewebsite.pdf'} target="_blank" rel="noreferrer">Resume</a>
                     <a href="https://www.instagram.com/kiratpalsinghjohal/" target="_blank" rel="noreferrer">Instagram</a>
-                     <a href="https://wa.me/17783177226?text=Hi%20this%20is%20Kiratpal !
-" target="_blank" rel="noreferrer">WhatsApp</a>
+                     <a href="https://wa.me/17783177226?text=Hi%20this%20is%20Kiratpal !" target="_blank" rel="noreferrer">WhatsApp</a>
+                     <a href="https://www.sfu.ca/computing.html" target="_blank" rel="noreferrer">SFU CS Program</a>
                 </div>
             </div>
         </>
