@@ -1,0 +1,35 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #faedf5;
+}
+
+.info {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.info h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.info a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+
+.social_links {
+    margin-top: 20px;
+}
