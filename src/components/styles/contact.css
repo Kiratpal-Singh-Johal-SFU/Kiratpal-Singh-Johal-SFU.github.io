@@ -1,0 +1,45 @@
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    min-height: 50vh;
+    background-color: #faedf5;
+    padding: 60px 0px;
+    width: 100%;
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 1.8em;
+    color: #000000;
+    padding: 50px;
+}
+
+.contact-info h2 {
+    font-size: 2em;
+    margin-bottom: 140px; /* more space below heading */
+}
+
+.contact-info a {
+    color: #000000;
+    text-decoration: none; /* no underline */
+}
+
+.social_icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    position: sticky; 
+    bottom: 0;
+    width: 100%;
+}
+
+.social_icons a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.7em;
+    font-weight: bold;
+}
