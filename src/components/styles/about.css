@@ -1,0 +1,41 @@
+.about {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    min-height: 50vh;
+    background-color: #faedf5;
+    padding: 60px 0px;
+    width: 100%;
+}
+
+.bio {
+    flex: 1;
+    text-align: left;
+    font-size: 1.8em;
+    color: #000000;
+    padding: 50px;
+}
+
+.empty {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 100px;
+    background-color: #ffffff;
+    position: sticky; 
+    bottom: 0;
+    width: 100%;
+}
+
+.name {
+    flex: 1;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 90px;
+    margin-left: 140px;
+}
+
+.name h1 {
+    font-size: 4.0em;
+    color: #000000;
+}
