@@ -7,9 +7,11 @@ function Contact() {
             <div className="contact">
                 <div className="contact-info">
                     <h2>Contact Information</h2>
-                    <p>Email: <a href="mailto:jkiratpal@gmail.com">jkiratpal@gmail.com</a></p>
-                    <p>City: Vancouver, Canada</p>
-                    <p>School: Simon Fraser University (SFU)</p>
+                    <p>
+                        Email: <a href="mailto:jkiratpal@gmail.com"><strong>jkiratpal@gmail.com</strong></a> &nbsp;|&nbsp;
+                        City: <strong>Vancouver, Canada</strong> &nbsp;|&nbsp;
+                        School: <strong>Simon Fraser University (SFU)</strong>
+                    </p>
                 </div>
             </div>
 
