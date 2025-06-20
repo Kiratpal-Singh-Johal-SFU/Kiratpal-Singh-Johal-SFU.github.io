@@ -1,35 +1,45 @@
 .contact {
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 40px;
+    justify-content: center; 
+    min-height: 50vh;
     background-color: #faedf5;
+    padding: 60px 0px;
+    width: 100%;
 }
 
-.info {
-    text-align: center;
-    font-size: 20px;
-    line-height: 1.8;
+.contact-info {
+    text-align: left;
+    font-size: 1.8em;
+    color: #000000;
+    padding: 50px;
 }
 
-.info h2 {
+.contact-info h2 {
+    font-size: 2em;
     margin-bottom: 20px;
-    font-size: 24px;
-    color: #333;
 }
 
-.info a {
-    color: #007bff;
-    text-decoration: none;
-    margin: 0 10px;
-    display: inline-block;
-}
-
-.info a:hover {
+.contact-info a {
+    color: #000000;
     text-decoration: underline;
 }
 
-.social_links {
-    margin-top: 20px;
+.social_icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    position: sticky; 
+    bottom: 0;
+    width: 100%;
+}
+
+.social_icons a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.7em;
+    font-weight: bold;
 }
