@@ -5,7 +5,7 @@
     justify-content: center; 
     min-height: 50vh;
     background-color: #faedf5;
-    padding: 60px 0px;
+    padding: 0px 0px;
     width: 100%;
 }
 
@@ -13,7 +13,7 @@
     text-align: center;
     font-size: 1.8em;
     color: #000000;
-    padding: 50px;
+    padding: 10px;
     max-width: 900px;
 }
 

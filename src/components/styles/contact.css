@@ -1,7 +1,8 @@
 .contact {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     min-height: 50vh;
     background-color: #faedf5;
     padding: 60px 0px;
@@ -12,17 +13,17 @@
     text-align: center;
     font-size: 1.8em;
     color: #000000;
-    padding: 50px;
+    padding: 20px; /* reduced padding to match project page */
 }
 
 .contact-info h2 {
     font-size: 2em;
-    margin-bottom: 140px; /* more space below heading */
+    margin-bottom: 40px;
 }
 
 .contact-info a {
     color: #000000;
-    text-decoration: none; /* no underline */
+    text-decoration: none;
 }
 
 .social_icons {
