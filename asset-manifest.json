@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Kiratpal-Singh-Johal-SFU/Kiratpal-Singh-Johal-SFU.github.io/static/css/main.0263f60d.css",
-    "main.js": "/Kiratpal-Singh-Johal-SFU/Kiratpal-Singh-Johal-SFU.github.io/static/js/main.4cb6f5c8.js",
-    "static/js/453.3d782c37.chunk.js": "/Kiratpal-Singh-Johal-SFU/Kiratpal-Singh-Johal-SFU.github.io/static/js/453.3d782c37.chunk.js",
-    "static/media/teamoverview.jpg": "/Kiratpal-Singh-Johal-SFU/Kiratpal-Singh-Johal-SFU.github.io/static/media/teamoverview.d43f9e1e7f2f09a99837.jpg",
-    "static/media/adminboard.jpg": "/Kiratpal-Singh-Johal-SFU/Kiratpal-Singh-Johal-SFU.github.io/static/media/adminboard.45b63bdd101acc4ffd53.jpg",
-    "static/media/ownerpage.jpg": "/Kiratpal-Singh-Johal-SFU/Kiratpal-Singh-Johal-SFU.github.io/static/media/ownerpage.7d5b162ad455a4674fff.jpg",
-    "static/media/admin2.jpg": "/Kiratpal-Singh-Johal-SFU/Kiratpal-Singh-Johal-SFU.github.io/static/media/admin2.80409b89a8329008cfa7.jpg",
-    "static/media/headshot.jpg": "/Kiratpal-Singh-Johal-SFU/Kiratpal-Singh-Johal-SFU.github.io/static/media/headshot.933dbebd3b0cb05d6077.jpg",
-    "index.html": "/Kiratpal-Singh-Johal-SFU/Kiratpal-Singh-Johal-SFU.github.io/index.html",
-    "main.0263f60d.css.map": "/Kiratpal-Singh-Johal-SFU/Kiratpal-Singh-Johal-SFU.github.io/static/css/main.0263f60d.css.map",
-    "main.4cb6f5c8.js.map": "/Kiratpal-Singh-Johal-SFU/Kiratpal-Singh-Johal-SFU.github.io/static/js/main.4cb6f5c8.js.map",
-    "453.3d782c37.chunk.js.map": "/Kiratpal-Singh-Johal-SFU/Kiratpal-Singh-Johal-SFU.github.io/static/js/453.3d782c37.chunk.js.map"
+    "main.css": "/static/css/main.0263f60d.css",
+    "main.js": "/static/js/main.5685d2a2.js",
+    "static/js/453.3d782c37.chunk.js": "/static/js/453.3d782c37.chunk.js",
+    "static/media/teamoverview.jpg": "/static/media/teamoverview.d43f9e1e7f2f09a99837.jpg",
+    "static/media/adminboard.jpg": "/static/media/adminboard.45b63bdd101acc4ffd53.jpg",
+    "static/media/ownerpage.jpg": "/static/media/ownerpage.7d5b162ad455a4674fff.jpg",
+    "static/media/admin2.jpg": "/static/media/admin2.80409b89a8329008cfa7.jpg",
+    "static/media/headshot.jpg": "/static/media/headshot.933dbebd3b0cb05d6077.jpg",
+    "index.html": "/index.html",
+    "main.0263f60d.css.map": "/static/css/main.0263f60d.css.map",
+    "main.5685d2a2.js.map": "/static/js/main.5685d2a2.js.map",
+    "453.3d782c37.chunk.js.map": "/static/js/453.3d782c37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0263f60d.css",
-    "static/js/main.4cb6f5c8.js"
+    "static/js/main.5685d2a2.js"
   ]
 }
