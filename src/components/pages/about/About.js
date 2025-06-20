@@ -1,6 +1,7 @@
 import React from 'react';
-import './About.css';
-import profilePhoto from '../../assets/headshot.jpg';
+import '../../styles/About.css';
+import profilePhoto from '../../../assets/headshot.jpg';
+
 function About() {
     return (
         <>
