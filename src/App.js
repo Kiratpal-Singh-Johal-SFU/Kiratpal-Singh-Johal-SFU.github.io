@@ -7,7 +7,8 @@ function App() {
     return (
         <div>
             <About />
-           
+            <Project />
+            <Contact />
         </div>
     );
 }
