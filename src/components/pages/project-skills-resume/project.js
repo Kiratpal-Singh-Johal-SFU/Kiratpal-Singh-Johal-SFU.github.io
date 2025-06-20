@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../styles/Project.css';
 
 import adminBoard from '../../../assets/adminboard.jpg';
@@ -7,9 +7,19 @@ import ownerpage from '../../../assets/ownerpage.jpg';
 import teamoverview from '../../../assets/teamoverview.jpg';
 
 function Project() {
+    const [lightboxImage, setLightboxImage] = useState(null);
+
+    const openLightbox = (image) => {
+        setLightboxImage(image);
+    };
+
+    const closeLightbox = () => {
+        setLightboxImage(null);
+    };
+
     return (
         <>
-            <div className="project">
+            <div className={`project ${lightboxImage ? 'no-click' : ''}`}>
                 <div className="project-info">
                     <h2>Cricket Auction</h2>
                     <p>
@@ -20,20 +30,21 @@ function Project() {
                 </div>
 
                 <div className="media-row">
-                    <div className="media-item">
+                    <div className="media-item" onClick={() => openLightbox(adminBoard)}>
                         <img src={adminBoard} alt="Admin Board" />
+                        <div className="overlay-text">Click to Expand</div>
                     </div>
-                    <div className="media-item">
+                    <div className="media-item" onClick={() => openLightbox(admin2)}>
                         <img src={admin2} alt="Admin 2" />
+                        <div className="overlay-text">Click to Expand</div>
                     </div>
-                </div>
-
-                <div className="media-row">
-                    <div className="media-item">
+                    <div className="media-item" onClick={() => openLightbox(ownerpage)}>
                         <img src={ownerpage} alt="Owner Page" />
+                        <div className="overlay-text">Click to Expand</div>
                     </div>
-                    <div className="media-item">
+                    <div className="media-item" onClick={() => openLightbox(teamoverview)}>
                         <img src={teamoverview} alt="Team Overview" />
+                        <div className="overlay-text">Click to Expand</div>
                     </div>
                 </div>
 
@@ -47,6 +58,12 @@ function Project() {
                 <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
                 <a href="YOUR_RESUME_LINK" target="_blank" rel="noreferrer">Resume</a>
             </div>
+
+            {lightboxImage && (
+                <div className="lightbox" onClick={closeLightbox}>
+                    <img src={lightboxImage} alt="Full View" />
+                </div>
+            )}
         </>
     );
 }
