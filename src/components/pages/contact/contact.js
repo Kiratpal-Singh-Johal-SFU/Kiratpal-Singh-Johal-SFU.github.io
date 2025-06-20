@@ -5,7 +5,8 @@ import Navbar from '../../navbar/Navbar';
 function Contact() {
     return (
         <>
-        <Navbar />
+            <Navbar />
+
             <div className="contact">
                 <div className="contact-info">
                     <h2>Contact Information</h2>
@@ -15,12 +16,12 @@ function Contact() {
                         School: <strong>Simon Fraser University (SFU)</strong>
                     </p>
                 </div>
-            </div>
 
-            <div className="social_icons">
-                <a href="https://github.com/Kiratpal-Singh-Johal-SFU" target="_blank" rel="noreferrer">GitHub</a>
-                <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-                <a href="YOUR_RESUME_LINK" target="_blank" rel="noreferrer">Resume</a>
+                <div className="social_icons">
+                    <a href="https://github.com/Kiratpal-Singh-Johal-SFU" target="_blank" rel="noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a href="YOUR_RESUME_LINK" target="_blank" rel="noreferrer">Resume</a>
+                </div>
             </div>
         </>
     );
