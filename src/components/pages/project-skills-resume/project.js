@@ -1,6 +1,11 @@
 import React from 'react';
 import '../../styles/Project.css';
 
+import adminBoard from '../../../assets/adminboard.jpg';
+import admin2 from '../../../assets/admin2.jpg';
+import ownerpage from '../../../assets/ownerpage.jpg';
+import teamoverview from '../../../assets/teamoverview.jpg';
+
 function Project() {
     return (
         <>
@@ -14,34 +19,26 @@ function Project() {
                     </p>
                 </div>
 
-                {/* Row 1 - Images */}
                 <div className="media-row">
                     <div className="media-item">
-                        <img src="YOUR_IMAGE_1_URL" alt="Screenshot 1" />
+                        <img src={adminBoard} alt="Admin Board" />
                     </div>
                     <div className="media-item">
-                        <img src="YOUR_IMAGE_2_URL" alt="Screenshot 2" />
+                        <img src={admin2} alt="Admin 2" />
                     </div>
                 </div>
 
-                {/* Row 2 - Images */}
                 <div className="media-row">
                     <div className="media-item">
-                        <img src="YOUR_IMAGE_3_URL" alt="Screenshot 3" />
+                        <img src={ownerpage} alt="Owner Page" />
                     </div>
                     <div className="media-item">
-                        <img src="YOUR_IMAGE_4_URL" alt="Screenshot 4" />
+                        <img src={teamoverview} alt="Team Overview" />
                     </div>
                 </div>
 
-                {/* Row 3 - Video */}
-                <div className="media-video">
-                    <video src="YOUR_VIDEO_URL" controls autoPlay loop muted></video>
-                </div>
-
-                {/* Web App Link */}
                 <div className="project-link">
-                    <a href="https://ipl-mock-auction-git-main-kiratpal-singh-johals-projects.vercel.app/teams" target="_blank" rel="noreferrer">View Live Application</a>
+                    <a href="YOUR_WEB_APP_URL" target="_blank" rel="noreferrer">View Live Application</a>
                 </div>
             </div>
 
