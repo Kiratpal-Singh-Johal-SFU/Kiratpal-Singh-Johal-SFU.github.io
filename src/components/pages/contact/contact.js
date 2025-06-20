@@ -20,6 +20,7 @@ function Contact() {
                 <div className="social_icons">
                     <a href="https://github.com/Kiratpal-Singh-Johal-SFU" target="_blank" rel="noreferrer">GitHub</a>
                     <a href="https://linkedin.com/in/kiratpal-singh-johal" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a href="https://www.instagram.com/kiratpalsinghjohal/" target="_blank" rel="noreferrer">Instagram</a>
                 </div>
             </div>
         </>
