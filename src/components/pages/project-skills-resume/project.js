@@ -24,7 +24,9 @@ function Project() {
         <Navbar />
             <div className={`project ${lightboxImage ? 'no-click' : ''}`}>
                 <div className="project-info">
-                    <h2>Cricket Auction</h2>
+                    <h2>
+                    <a href="https://ipl-mock-auction-git-main-kiratpal-singh-johals-projects.vercel.app/teams" target="_blank" rel="noreferrer">Cricket Auction</a>
+                    </h2>
                     <p>
                         A web application for hosting local cricket tournament auctions.
                         It supports many features such as Team Purse management, Bidding increment,
@@ -52,14 +54,18 @@ function Project() {
                 </div>
 
                 <div className="project-link">
-                    <a href="YOUR_WEB_APP_URL" target="_blank" rel="noreferrer">View Live Application</a>
+                    <a href="https://ipl-mock-auction-git-main-kiratpal-singh-johals-projects.vercel.app/teams" target="_blank" rel="noreferrer">View Live Application</a>
                 </div>
             </div>
 
             <div className="social_icons">
-                <a href="https://github.com/Kiratpal-Singh-Johal-SFU" target="_blank" rel="noreferrer">GitHub</a>
-                <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-                <a href="YOUR_RESUME_LINK" target="_blank" rel="noreferrer">Resume</a>
+                 <a href="https://github.com/Kiratpal-Singh-Johal-SFU" target="_blank" rel="noreferrer">GitHub</a>
+                    <a href="https://linkedin.com/in/kiratpal-singh-johal" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a href={process.env.PUBLIC_URL + '/Resumewebsite.pdf'} target="_blank" rel="noreferrer">Resume</a>
+                    <a href="https://www.instagram.com/kiratpalsinghjohal/" target="_blank" rel="noreferrer">Instagram</a>
+                     <a href="https://wa.me/17783177226?text=Hi%20this%20is%20Kiratpal !" target="_blank" rel="noreferrer">WhatsApp</a>
+                     <a href="https://www.sfu.ca/computing.html" target="_blank" rel="noreferrer">SFU CS Program</a>
+
             </div>
 
             {lightboxImage && (

@@ -19,8 +19,11 @@ function Contact() {
 
                 <div className="social_icons">
                     <a href="https://github.com/Kiratpal-Singh-Johal-SFU" target="_blank" rel="noreferrer">GitHub</a>
-                    <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-                    <a href="YOUR_RESUME_LINK" target="_blank" rel="noreferrer">Resume</a>
+                    <a href="https://linkedin.com/in/kiratpal-singh-johal" target="_blank" rel="noreferrer">LinkedIn</a>
+                    <a href={process.env.PUBLIC_URL + '/Resumewebsite.pdf'} target="_blank" rel="noreferrer">Resume</a>
+                    <a href="https://www.instagram.com/kiratpalsinghjohal/" target="_blank" rel="noreferrer">Instagram</a>
+                     <a href="https://wa.me/17783177226?text=Hi%20this%20is%20Kiratpal !" target="_blank" rel="noreferrer">WhatsApp</a>
+                     <a href="https://www.sfu.ca/computing.html" target="_blank" rel="noreferrer">SFU CS Program</a>
                 </div>
             </div>
         </>
