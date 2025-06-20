@@ -5,6 +5,8 @@ import adminBoard from '../../../assets/adminboard.jpg';
 import admin2 from '../../../assets/admin2.jpg';
 import ownerpage from '../../../assets/ownerpage.jpg';
 import teamoverview from '../../../assets/teamoverview.jpg';
+import Navbar from '../../navbar/Navbar';
+
 
 function Project() {
     const [lightboxImage, setLightboxImage] = useState(null);
@@ -19,6 +21,7 @@ function Project() {
 
     return (
         <>
+        <Navbar />
             <div className={`project ${lightboxImage ? 'no-click' : ''}`}>
                 <div className="project-info">
                     <h2>Cricket Auction</h2>
