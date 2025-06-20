@@ -18,6 +18,12 @@ function About() {
             </div>
                 <div className="empty">
                 </div>
+                 <div className="social_icons">
+                <a href="https://github.com/Kiratpal-Singh-Johal-SFU" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="YOUR_RESUME_LINK" target="_blank" rel="noreferrer">Resume</a>
+            </div>
+
         </>
     );
 }
