@@ -24,7 +24,9 @@ function Project() {
         <Navbar />
             <div className={`project ${lightboxImage ? 'no-click' : ''}`}>
                 <div className="project-info">
-                    <h2>Cricket Auction</h2>
+                    <h2>
+                    <a href="https://ipl-mock-auction-git-main-kiratpal-singh-johals-projects.vercel.app/teams" target="_blank" rel="noreferrer">Cricket Auction</a>
+                    </h2>
                     <p>
                         A web application for hosting local cricket tournament auctions.
                         It supports many features such as Team Purse management, Bidding increment,
@@ -52,7 +54,7 @@ function Project() {
                 </div>
 
                 <div className="project-link">
-                    <a href="YOUR_WEB_APP_URL" target="_blank" rel="noreferrer">View Live Application</a>
+                    <a href="https://ipl-mock-auction-git-main-kiratpal-singh-johals-projects.vercel.app/teams" target="_blank" rel="noreferrer">View Live Application</a>
                 </div>
             </div>
 
