@@ -1,10 +1,13 @@
 import React from 'react';
 import '../../styles/About.css';
 import profilePhoto from '../../../assets/headshot.jpg';
+import Navbar from '../../navbar/Navbar';
+
 
 function About() {
     return (
         <>
+        <Navbar />
             <div className="about">
                 <div className="bio">
                     <p>I'm a Computer Science student at SFU from India.<br/>
